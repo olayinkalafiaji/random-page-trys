@@ -12,6 +12,16 @@
     <div>
       <section class="top-article">
         <h1 class="topheader">LETS TALK ABOUT SWANS!!!</h1>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Links</a>
+          <a href="#">Contact US</a>
+        </nav>
+        </section>
+    </div>
+    <article class="whole-document">
+    <section class=main-article>
         <div class="article">
           <p>
             The Swan is a large waterfowl in the Anatidae family. These birds
@@ -20,12 +30,13 @@
             closely related to geese than they are to ducks.
           </p>
           <p>
-            There are six different species of Swans including the
-            <b>mute Swan</b>, <b>Tundra Swan</b>, <b>Black Swan</b>,
-            <b>Trumpeter Swan</b>, <b>Black-Necked Swan</b>, and the
-            <b>Whooper Swan</b>. Read on to learn about the Swan.
+            There are six different species of Swans including the,
+            <p><b>Mute Swan, Tundra Swan, Black Swan,
+            Trumpeter Swan,Black-Necked Swan, and the
+            Whooper Swan.</b>
+            </p>
           </p>
-
+<p> Read on to learn about the Swan.</p>
           <h3>Interesting Facts About the Swan</h3>
           <p>
             Swans are undeniably large, graceful, and imposing birds. They are
@@ -60,19 +71,31 @@
               per hour!
             </li>
           </ul>
+        </section>
         </div>
-        <img
-          class="img"
-          src="swan2.jpg"
-          alt="image of a swan"
-          height="120px"
-          width="150px"
-        />
-      </section>
+        <aside class="swan-image">
+        <div class="images">
+          <img
+            class="img"
+            src="swan2.jpg"
+            alt="image of a swan"
+            height="200px"
+            width="220px"
+          />
+          <img
+            class="img2"
+            src="swan1.png"
+            alt="png image of swan"
+            height="200px"
+            width="220px"
+          />
+        </div>
+      </aside>
     </div>
+  </article>
     <footer class="footer">
       <p><button class="sub">subcribe</button></p>
-      <p id="copyright" class="copyright text">
+      <p class="copyright text">
         Copyright &copy; 2022 The <em>Perkinson's</em> Magazine
       </p>
     </footer>
